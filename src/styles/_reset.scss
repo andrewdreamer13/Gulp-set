@@ -1,0 +1,60 @@
+/* Reset styles */
+*{
+	margin: 0;
+	padding: 0;
+
+  vertical-align:baseline;
+
+  background:transparent;
+	border: 0;
+  outline:0;
+}
+
+*,*::before,*::after{
+	box-sizing: border-box;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+
+  font-size: 14px;
+	line-height: 1;
+}
+
+:focus,:active{outline: none;}
+a{color:inherit;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+a:focus,a:active{outline: none;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+
+button::-moz-focus-inner {
+	padding:0;
+	
+	border:0;}
+
+
+nav ul {
+  list-style:none;
+}
+
+img{
+	vertical-align: top;
+}
+
+nav,footer,header,aside,label{display: block;}
+
+input,button,textarea{
+	color:inherit;
+	font-family:inherit;
+}
+
+::placeholder{color: inherit;font-family:inherit}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: 400;
+	font-size:inherit;
+}
